@@ -413,9 +413,9 @@ declare class BN {
     iuxor(b: BN): BN;
 
     /**
-     * @description set specified bit to 1
+     * @description set specified bit b if v != 0, otherwise, flips the bit.
      */
-    setn(b: number, v: number): BN;
+    setn(b: number, v = 1): BN;
 
     /**
      * @description shift left
