@@ -415,7 +415,7 @@ declare class BN {
     /**
      * @description set specified bit to 1
      */
-    setn(b: number): BN;
+    setn(b: number, v: number): BN;
 
     /**
      * @description shift left
